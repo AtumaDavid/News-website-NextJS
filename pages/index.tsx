@@ -8,6 +8,7 @@ import NewsArticlesGrid from "@/components/NewsArticlesGrid";
 import { Alert } from "react-bootstrap";
 
 //typescript
+//BreakingNewsPageProps as props is expected to render a breaking news page using the news articles provided in newsArticles.
 interface BreakingNewsPageProps {
   newsArticles: NewsArticle[];
 }
